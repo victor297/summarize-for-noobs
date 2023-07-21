@@ -43,7 +43,7 @@ def summary(input,per):
     summary=''.join(final_summary)
     return summary
 
-st.title(':orange[SummariZE -v1.0] :notebook:')
+st.title(':orange[Summarize-for-noobs -v1.0] :notebook:')
 btn_enter_data = st.button("Summarize")
 input = st.text_area('Enter text to summarize')
 if(btn_enter_data):
