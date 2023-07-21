@@ -7,11 +7,6 @@ from spacy.lang.en.stop_words import STOP_WORDS
 from string import punctuation
 from heapq import nlargest 
 
-import subprocess
-@st.cache_resource
-def download_en_core_web_sm():
-    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
-
 #creating a function that returns us the summarised document
 
 def summary(input,per):
