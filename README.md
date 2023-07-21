@@ -1,7 +1,7 @@
 <h1 align="center" style="color:#ff8080;">Project Name: Text Summarizer with Streamlit</h1>
 
 <p align="center">
-  <img src="https://example.com/path/to/your/image.png" alt="Text Summarizer" width="300"/>
+  <img src="https://example.com/path/to/your/image.png" alt="Summarize-for-noobs" width="300"/>
 </p>
 
 ## Overview
