@@ -43,7 +43,7 @@ def summary(input,per):
     summary=''.join(final_summary)
     return summary
 
-st.title(':orange[Text-Summarizer] :notebook:')
+st.title(':orange[Text Tummarization Using Transformer Algorithm] :notebook:')
 st.write('By ESTHER IBNKUNOLUWA AWODOYIN 21D/47CS/01565, ABDULMUIZ ABDULGAFAR 20/47CS/01318, OLONADE AZEEZ LEKAN 21D/47CS/01543')
 input = st.text_area('Enter text to summarize')
 btn_enter_data = st.button("Summarize")
